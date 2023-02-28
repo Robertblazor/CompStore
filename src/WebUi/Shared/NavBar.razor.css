@@ -1,0 +1,28 @@
+.navbar-brand{
+    font-size: 2rem;
+    color:coral
+    margin-left:0;
+    margin-right:10px;
+}
+.navbar-brand:hover{
+    font-size:2rem;
+    color:blueviolet;
+    margin-left:0;
+    margin-right:10px;
+}
+.nav-link{
+    font-size: 1.5rem;
+    color:coral;
+    margin-left:10px;
+    margin-right:10px;
+}
+.nav-link:hover{
+    font-size: 1.5rem;
+    color:blueviolet;
+    margin-left:10px;
+    margin-right:10px;
+}
+.navbar{
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e7e7e7;
+}
