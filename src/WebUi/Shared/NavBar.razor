@@ -7,16 +7,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="#">Home Projects</a>
+          <a class="nav-link" href="/homeproject">Home Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Business Projects</a>
+          <a class="nav-link" href="/businessdevelopment">Business Development</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled">Personal Projects</a>
+          <a class="nav-link" href="/personalproject">Personal Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled">Just for fun</a>
+          <a class="nav-link" href="/funtools">Just for fun</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
@@ -28,12 +28,5 @@
 </nav>
 
 @code {
-    private bool collapseNavMenu = true;
 
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
 }
