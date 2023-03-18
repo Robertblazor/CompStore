@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Components.Web;
 using WebUi.Data;
 using Syncfusion.Blazor;
 
-Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MTMxNjEzMkAzMjMwMmUzNDJlMzBDenJaUUxpOUNsWFZFV1VTQVRKMnBFTXltUWhJNFkwcnA0Qkw2c2wybDZVPQ==");
+Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MTM2NjIzMEAzMjMwMmUzNDJlMzBscUhxck1mNFoxQjFJbXNTeWdMTytHanFXbXp1M1dLZ1I0SGl6RkgyNURBPQ==");
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
