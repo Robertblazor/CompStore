@@ -3,35 +3,37 @@
 @using Syncfusion.Blazor.Navigations;
 @inject IJSRuntime JSRuntime
 
-<div class="container" style="text-align-center">
-    <SfCarousel Interval="2000">
-        <ChildContent>
-            <CarouselItem>
-                <figure class="image container">
-                    <img src="https://compstoreimage.blob.core.windows.net/test/HomeOffice.png" alt="Home Office Setup"
-                    style="height:600px;width:1000px">
-                </figure>
-            </CarouselItem>
-            <CarouselItem>
-                <figure class="image container">
-                    <img src="https://compstoreimage.blob.core.windows.net/test/PowerManagement.png" alt="Power Management Project"
-                    style="height:600px;width:1000px">
-                </figure>
-            </CarouselItem>
-            <CarouselItem>
-                <figure>
-                    <img src="https://compstoreimage.blob.core.windows.net/test/SmartRouter.png" alt="Make the Home-WiFi Smarter"
-                    style="height:600px;width:1000px">
-                </figure>
-            </CarouselItem>
-            <CarouselItem>
-                <figure>
-                    <img src="https://compstoreimage.blob.core.windows.net/test/SmartHomeIoT.png" alt="Home IoT Automation Project"
-                    style="height:600px;width:1000px">
-                </figure>
-            </CarouselItem>
-        </ChildContent>
-    </SfCarousel>
+<div class="justify-content: center;">
+    <div class="container">
+        <SfCarousel Interval="2000" ButtonsVisibility="CarouselButtonVisibility.Hidden">
+            <ChildContent>
+                <CarouselItem>
+                    <figure class="image container">
+                        <img src="https://compstoreimage.blob.core.windows.net/test/HomeOffice.png" alt="Home Office Setup"
+                        style="height:600px;width:1000px">
+                    </figure>
+                </CarouselItem>
+                <CarouselItem>
+                    <figure class="image container">
+                        <img src="https://compstoreimage.blob.core.windows.net/test/PowerManagement.png" alt="Power Management Project"
+                        style="height:600px;width:1000px">
+                    </figure>
+                </CarouselItem>
+                <CarouselItem>
+                    <figure>
+                        <img src="https://compstoreimage.blob.core.windows.net/test/SmartRouter.png" alt="Make the Home-WiFi Smarter"
+                        style="height:600px;width:1000px">
+                    </figure>
+                </CarouselItem>
+                <CarouselItem>
+                    <figure>
+                        <img src="https://compstoreimage.blob.core.windows.net/test/SmartHomeIoT.png" alt="Home IoT Automation Project"
+                        style="height:600px;width:1000px">
+                    </figure>
+                </CarouselItem>
+            </ChildContent>
+        </SfCarousel>
+    </div>
 </div>
 @code{
     
