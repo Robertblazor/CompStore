@@ -66,6 +66,10 @@ jobs:
         with:
           name: .net-app
           path: ${{env.DOTNET_ROOT}}/myapp
+<<<<<<< HEAD
+=======
+          working-directory: ${{env.DOTNET_ROOT}}/myapp
+>>>>>>> cfb4808154c5be9bfb8e9994b4a24ec6ff931b28
 
   deploy:
     permissions:
